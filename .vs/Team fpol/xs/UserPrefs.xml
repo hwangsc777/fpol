@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{79A12094-CE95-9E2D-F181-DC9BD0A672FA}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/JinWook/GameManager/EnemySpawn.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Hwang/PlayerControll.cs" Line="93" Column="6" />
+      <File FileName="Assets/Scripts/Hwang/InputManager.cs" Line="19" Column="6" />
+      <File FileName="Assets/Scripts/Hwang/CameraControll.cs" />
+      <File FileName="Assets/Scripts/Hwang/Bullet.cs" Line="28" Column="43" />
+      <File FileName="Assets/Scripts/JinWook/GameManager/EnemySpawn.cs" Line="41" Column="34" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Team fpol" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Hwang" expanded="True" />
+                <Node name="JinWook" expanded="True">
+                  <Node name="AstarPathfindingProject" expanded="True">
+                    <Node name="Core" expanded="True" />
+                  </Node>
+                  <Node name="Enemy" expanded="True" />
+                  <Node name="GameManager" expanded="True">
+                    <Node name="EnemySpawn.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e25528a4-78cf-4957-ad78-e5392da0b6d9" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
