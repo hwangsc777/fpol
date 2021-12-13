@@ -14,8 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Animation/Hwang.meta
+    - Assets/Animation/Hwang/Character.meta
+    - Assets/Animation/Hwang/Character/Character.controller
+    - Assets/Animation/Hwang/Character/Character.controller.meta
+    - Assets/Animation/Hwang/Character/Walk.anim
+    - Assets/Animation/Hwang/Character/Walk.anim.meta
+    - Assets/Animation/Hwang/bat.meta
+    - Assets/Animation/Hwang/bat/bat.anim
+    - Assets/Animation/Hwang/bat/bat.anim.meta
+    - Assets/Animation/Hwang/bat/bat_00.controller
+    - Assets/Animation/Hwang/bat/bat_00.controller.meta
+    - Assets/Animation/Hwang/effect.meta
+    - Assets/Animation/Hwang/skeleton.meta
+    - Assets/Animation/Hwang/skeleton/skeleton.anim
+    - Assets/Animation/Hwang/skeleton/skeleton.anim.meta
+    - Assets/Animation/Hwang/skeleton/skeleton_00.controller
+    - Assets/Animation/Hwang/skeleton/skeleton_00.controller.meta
     - 
-    m_Values: 01
+    m_Values: 000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

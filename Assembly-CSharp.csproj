@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{79A12094-CE95-9E2D-F181-DC9BD0A672FA}</ProjectGuid>
+    <ProjectGuid>{843AF95C-2DE5-0A1B-13AC-CFE9B7939133}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,19 +53,35 @@
     <UnityVersion>2020.3.22f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/Hwang/InputManager.cs" />
-    <Compile Include="Assets/Scripts/JinWook/GameManager/EnemySpawn.cs" />
-    <Compile Include="Assets/Scripts/JinWook/Enemy/Enemy.cs" />
-    <Compile Include="Assets/Scripts/JinWook/GameManager/OldPath.cs" />
-    <Compile Include="Assets/Scripts/Hwang/PlayerControll.cs" />
-    <Compile Include="Assets/Scripts/JinWook/Enemy/Enemy1.cs" />
-    <Compile Include="Assets/Scripts/JinWook/Enemy/SmartEnemy.cs" />
-    <Compile Include="Assets/Scripts/JinWook/GameManager/Logic.cs" />
-    <Compile Include="Assets/Scripts/JinWook/Enemy/EnemyAI.cs" />
-    <Compile Include="Assets/Scripts/JinWook/Enemy/Enemy2.cs" />
-    <Compile Include="Assets/Scripts/JinWook/Player/Player.cs" />
-    <Compile Include="Assets/Scripts/Hwang/CameraControll.cs" />
-    <Compile Include="Assets/Scripts/Hwang/Bullet.cs" />
+    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets/Scripts/InputManager.cs" />
+    <Compile Include="Assets/Scripts/Path/FloorScript.cs" />
+    <Compile Include="Assets/Temp/Scripts/GameManager/EnemySpawn.cs" />
+    <Compile Include="Assets/Scripts/Enemy/Enemy_Melee3.cs" />
+    <Compile Include="Assets/Scripts/Enemy/Arrow.cs" />
+    <Compile Include="Assets/Scripts/Path/EnemyJump.cs" />
+    <Compile Include="Assets/Scripts/Enemy/Enemy_Range1.cs" />
+    <Compile Include="Assets/Scripts/Enemy/Enemy.cs" />
+    <Compile Include="Assets/Scripts/Bullet.cs" />
+    <Compile Include="Assets/Scripts/CameraControll.cs" />
+    <Compile Include="Assets/Scripts/MonsterManager.cs" />
+    <Compile Include="Assets/Scripts/Enemy/OldPath.cs" />
+    <Compile Include="Assets/Scripts/MonsterCreator.cs" />
+    <Compile Include="Assets/Scripts/PlayerControll.cs" />
+    <Compile Include="Assets/Scripts/Enemy/Enemy1.cs" />
+    <Compile Include="Assets/Scripts/Enemy/Enemy_Melee1.cs" />
+    <Compile Include="Assets/Temp/Scripts/GameManager/Logic.cs" />
+    <Compile Include="Assets/Scripts/SoundManager.cs" />
+    <Compile Include="Assets/Scripts/Enemy/EnemyAI.cs" />
+    <Compile Include="Assets/Scripts/Enemy/Enemy_Melee2.cs" />
+    <Compile Include="Assets/Scripts/Enemy/Enemy2.cs" />
+    <Compile Include="Assets/Temp/Scripts/Player/Player.cs" />
+    <Compile Include="Assets/Scripts/Enemy/Enemy_Air1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/Temp/Sprites/Hero and Opponents/license.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -291,7 +307,7 @@
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Pathfinding.Ionic.Zip.Reduced">
-      <HintPath>Assets/Scripts/JinWook/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+      <HintPath>Assets/Temp/Scripts/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
@@ -734,15 +750,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PackageToolsEditor.csproj">
-      <Project>{5BC7A0C7-46A0-1A3B-3036-B3D0D5A659A3}</Project>
+      <Project>{F763216E-FD28-ED4E-540F-4D845129CAA5}</Project>
       <Name>PackageToolsEditor</Name>
     </ProjectReference>
     <ProjectReference Include="AstarPathfindingProject.csproj">
-      <Project>{A9A87560-89DB-A953-A111-45EEE6148417}</Project>
+      <Project>{0B87A36D-8465-7C95-0065-F84A313968AC}</Project>
       <Name>AstarPathfindingProject</Name>
     </ProjectReference>
     <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
-      <Project>{3F85C8C2-7B46-2161-7674-98DDE029B3DA}</Project>
+      <Project>{B080840F-178D-B810-423D-9268AC1252C3}</Project>
       <Name>AstarPathfindingProjectEditor</Name>
     </ProjectReference>
   </ItemGroup>

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637727321200000000
-    m_Hash: 3311433449
+      ticks: 637749114380000000
+    m_Hash: 2179338220
   m_LockFileStatus:
     m_FilePath: /Users/hwangchanbin/UnityProjects/Team_fpol/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637727321200000000
-    m_Hash: 4096745025
+      ticks: 637749114380000000
+    m_Hash: 3850919311
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -81,6 +81,7 @@ m_PackageAssets:
         - 3.2.11
         - 3.2.13
         - 3.2.14
+        - 3.2.15
         - 4.0.0
         - 4.0.1
         - 4.1.0
@@ -476,6 +477,7 @@ m_PackageAssets:
         - 3.0.15
         - 3.0.16
         - 3.0.17
+        - 3.0.18
         - 4.0.0
         - 4.0.1
         - 4.0.2
@@ -618,12 +620,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.collab-proxy@1.13.5
+    - packageId: com.unity.collab-proxy@1.15.7
       testable: 0
       isDirectDependency: 1
-      version: 1.13.5
+      version: 1.15.7
       source: 1
-      resolvedPath: /Users/hwangchanbin/UnityProjects/Team_fpol/Library/PackageCache/com.unity.collab-proxy@1.13.5
+      resolvedPath: /Users/hwangchanbin/UnityProjects/Team_fpol/Library/PackageCache/com.unity.collab-proxy@1.15.7
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -670,8 +672,10 @@ m_PackageAssets:
         - 1.13.5
         - 1.14.1
         - 1.14.4
+        - 1.14.7
         - 1.15.1
         - 1.15.4
+        - 1.15.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -686,8 +690,10 @@ m_PackageAssets:
         - 1.13.5
         - 1.14.1
         - 1.14.4
+        - 1.14.7
         - 1.15.1
         - 1.15.4
+        - 1.15.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -737,13 +743,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637685076530000000
+      datePublishedTicks: 637744672890000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-        revision: 4001806dc89b25276d1382d5abffd71731b030e5
+        revision: d208594e5483cdf10d303b6ee17df4d6bf58d3de
         path: 
     - packageId: com.unity.ide.rider@2.0.7
       testable: 0

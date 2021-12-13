@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3F85C8C2-7B46-2161-7674-98DDE029B3DA}</ProjectGuid>
+    <ProjectGuid>{B080840F-178D-B810-423D-9268AC1252C3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>AstarPathfindingProjectEditor</AssemblyName>
@@ -53,30 +53,33 @@
     <UnityVersion>2020.3.22f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/JinWook/AstarPathfindingProject/Editor/GraphEditors/GridGeneratorEditor.cs" />
-    <Compile Include="Assets/Scripts/JinWook/AstarPathfindingProject/Editor/ProceduralGridMoverEditor.cs" />
-    <Compile Include="Assets/Scripts/JinWook/AstarPathfindingProject/Editor/AstarPathEditor.cs" />
-    <Compile Include="Assets/Scripts/JinWook/AstarPathfindingProject/Editor/AstarUpdateChecker.cs" />
-    <Compile Include="Assets/Scripts/JinWook/AstarPathfindingProject/Editor/GraphUpdateSceneEditor.cs" />
-    <Compile Include="Assets/Scripts/JinWook/AstarPathfindingProject/Editor/AstarUpdateWindow.cs" />
-    <Compile Include="Assets/Scripts/JinWook/AstarPathfindingProject/Editor/GraphEditors/PointGeneratorEditor.cs" />
-    <Compile Include="Assets/Scripts/JinWook/AstarPathfindingProject/Editor/GraphEditors/GraphEditor.cs" />
-    <Compile Include="Assets/Scripts/JinWook/AstarPathfindingProject/Editor/ModifierEditors/SmoothModifierEditor.cs" />
-    <Compile Include="Assets/Scripts/JinWook/AstarPathfindingProject/Editor/AnimationLinkEditor.cs" />
-    <Compile Include="Assets/Scripts/JinWook/AstarPathfindingProject/Editor/GraphEditors/NavMeshGeneratorEditor.cs" />
-    <Compile Include="Assets/Scripts/JinWook/AstarPathfindingProject/Editor/Legacy/LegacyAIPathEditor2.cs" />
-    <Compile Include="Assets/Scripts/JinWook/AstarPathfindingProject/Editor/CustomGraphEditorAttribute.cs" />
-    <Compile Include="Assets/Scripts/JinWook/AstarPathfindingProject/Editor/ModifierEditors/RaycastModifierEditor.cs" />
-    <Compile Include="Assets/Scripts/JinWook/AstarPathfindingProject/Editor/SeekerEditor.cs" />
-    <Compile Include="Assets/Scripts/JinWook/AstarPathfindingProject/Editor/Legacy/LegacyEditorHelper2.cs" />
-    <Compile Include="Assets/Scripts/JinWook/AstarPathfindingProject/Editor/AIBaseEditor.cs" />
-    <Compile Include="Assets/Scripts/JinWook/AstarPathfindingProject/Editor/AILerpEditor.cs" />
+    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets/Scripts/JinWook/AstarPathfindingProject/Editor/AstarPathfindingProjectEditor.asmdef" />
-    <None Include="Assets/Scripts/JinWook/AstarPathfindingProject/Editor/EditorAssets/Materials/Navmesh.cginc" />
-    <None Include="Assets/Scripts/JinWook/AstarPathfindingProject/Editor/EditorAssets/Materials/NavmeshOutline.shader" />
-    <None Include="Assets/Scripts/JinWook/AstarPathfindingProject/Editor/EditorAssets/Materials/Navmesh.shader" />
+    <Compile Include="Assets/Temp/Scripts/AstarPathfindingProject/Editor/SeekerEditor.cs" />
+    <Compile Include="Assets/Temp/Scripts/AstarPathfindingProject/Editor/ModifierEditors/SmoothModifierEditor.cs" />
+    <Compile Include="Assets/Temp/Scripts/AstarPathfindingProject/Editor/AILerpEditor.cs" />
+    <Compile Include="Assets/Temp/Scripts/AstarPathfindingProject/Editor/GraphEditors/GridGeneratorEditor.cs" />
+    <Compile Include="Assets/Temp/Scripts/AstarPathfindingProject/Editor/AstarUpdateWindow.cs" />
+    <Compile Include="Assets/Temp/Scripts/AstarPathfindingProject/Editor/ProceduralGridMoverEditor.cs" />
+    <Compile Include="Assets/Temp/Scripts/AstarPathfindingProject/Editor/GraphUpdateSceneEditor.cs" />
+    <Compile Include="Assets/Temp/Scripts/AstarPathfindingProject/Editor/GraphEditors/PointGeneratorEditor.cs" />
+    <Compile Include="Assets/Temp/Scripts/AstarPathfindingProject/Editor/Legacy/LegacyAIPathEditor2.cs" />
+    <Compile Include="Assets/Temp/Scripts/AstarPathfindingProject/Editor/ModifierEditors/RaycastModifierEditor.cs" />
+    <Compile Include="Assets/Temp/Scripts/AstarPathfindingProject/Editor/Legacy/LegacyEditorHelper2.cs" />
+    <Compile Include="Assets/Temp/Scripts/AstarPathfindingProject/Editor/AnimationLinkEditor.cs" />
+    <Compile Include="Assets/Temp/Scripts/AstarPathfindingProject/Editor/AstarPathEditor.cs" />
+    <Compile Include="Assets/Temp/Scripts/AstarPathfindingProject/Editor/AstarUpdateChecker.cs" />
+    <Compile Include="Assets/Temp/Scripts/AstarPathfindingProject/Editor/GraphEditors/NavMeshGeneratorEditor.cs" />
+    <Compile Include="Assets/Temp/Scripts/AstarPathfindingProject/Editor/CustomGraphEditorAttribute.cs" />
+    <Compile Include="Assets/Temp/Scripts/AstarPathfindingProject/Editor/AIBaseEditor.cs" />
+    <Compile Include="Assets/Temp/Scripts/AstarPathfindingProject/Editor/GraphEditors/GraphEditor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/Temp/Scripts/AstarPathfindingProject/Editor/AstarPathfindingProjectEditor.asmdef" />
+    <None Include="Assets/Temp/Scripts/AstarPathfindingProject/Editor/EditorAssets/Materials/Navmesh.cginc" />
+    <None Include="Assets/Temp/Scripts/AstarPathfindingProject/Editor/EditorAssets/Materials/NavmeshOutline.shader" />
+    <None Include="Assets/Temp/Scripts/AstarPathfindingProject/Editor/EditorAssets/Materials/Navmesh.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -314,22 +317,22 @@
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+      <HintPath>Assets/Temp/Scripts/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
-      <HintPath>Assets/Scripts/JinWook/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -697,11 +700,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AstarPathfindingProject.csproj">
-      <Project>{A9A87560-89DB-A953-A111-45EEE6148417}</Project>
+      <Project>{0B87A36D-8465-7C95-0065-F84A313968AC}</Project>
       <Name>AstarPathfindingProject</Name>
     </ProjectReference>
     <ProjectReference Include="PackageToolsEditor.csproj">
-      <Project>{5BC7A0C7-46A0-1A3B-3036-B3D0D5A659A3}</Project>
+      <Project>{F763216E-FD28-ED4E-540F-4D845129CAA5}</Project>
       <Name>PackageToolsEditor</Name>
     </ProjectReference>
   </ItemGroup>

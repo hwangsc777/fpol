@@ -6,11 +6,14 @@ TagManager:
   tags:
   - DownJumpAbleFloor
   - Wall
+  - Enemy
+  - HitBox
+  - Ground
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - 
@@ -19,7 +22,7 @@ TagManager:
   - 
   - Terrain
   - Enemy
-  - 
+  - RunEnemy
   - 
   - 
   - 
